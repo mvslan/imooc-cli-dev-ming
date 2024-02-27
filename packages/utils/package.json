@@ -1,6 +1,6 @@
 {
     "name": "@imooc-cli-dev-ming/utils",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "description": "imooc cli dev utils description",
     "author": "mvslan <2423324327@qq.com>",
     "homepage": "",
@@ -14,9 +14,11 @@
         "lib"
     ],
     "publishConfig": {
-        "registry": "https://registry.npmmirror.com"
+        "registry": "https://registry.npmmirror.com",
+        "access": "public"
     },
     "scripts": {
         "test": "node ./__tests__/utils.test.js"
-    }
+    },
+    "gitHead": "41cf60287e75919c19867e070e88655506344fe5"
 }
